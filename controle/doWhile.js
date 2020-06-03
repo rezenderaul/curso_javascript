@@ -6,10 +6,10 @@ function getInteiroAleatorioEntre(min, max)
 
 let opcao = 0
 
-// While é utilizado em repetição por condição / quantidades de repetições indefinidas
+// Do while é utilizado em repetição por condição / quantidades de repetições indefinidas
 do {
     opcao = getInteiroAleatorioEntre(-1, 10)
-    console.log(`A opção escolhoda foi ${opcao}`)
+    console.log(`A opção escolhida foi ${opcao}`)
 } while(opcao !== -1)
 
 console.log('Até a próxima!')
